@@ -1,0 +1,10 @@
+var os = require('os');
+console.log(os);
+console.log('endianness:' + os.endianness());
+console.log('hostname:' + os.hostname());
+console.log('type:' + os.type());
+console.log('loadavg :' + os.loadavg());
+console.log('uptime: ' + os.uptime());
+console.log('freemem: ' + os.freemem());
+console.log('totalmem: ' + os.totalmem());
+console.log(os.cpus());
